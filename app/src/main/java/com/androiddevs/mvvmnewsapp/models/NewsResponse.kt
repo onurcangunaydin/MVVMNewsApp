@@ -1,7 +1,7 @@
-package com.androiddevs.mvvmnewsapp.api
+package com.androiddevs.mvvmnewsapp.models
 
 
-import com.androiddevs.mvvmnewsapp.api.Article
+import com.androiddevs.mvvmnewsapp.models.Article
 
 data class NewsResponse(
     val articles: List<Article>,
